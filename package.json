@@ -1,0 +1,25 @@
+{
+  "name": "docker-cnpmjs.org",
+  "version": "2.16.1",
+  "description": "simple docker image of cnpmjs.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzswang/docker-cnpmjs.org.git"
+  },
+  "keywords": [
+    "cnpmjs.org",
+    "cnpm",
+    "cnpmjs",
+    "docker"
+  ],
+  "author": "zzswang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzswang/docker-cnpmjs.org/issues"
+  },
+  "homepage": "https://github.com/zzswang/docker-cnpmjs.org#readme"
+}

@@ -1,0 +1,10 @@
+{
+  "admins": {
+    "dev": "dev@36node.com"
+  },
+  "scopes": [
+    "@36node"
+  ],
+  "enablePrivate": true,
+  "bindingHost": "0.0.0.0"
+}
