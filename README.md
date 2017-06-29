@@ -12,7 +12,7 @@ Get more detail from [cnpmjs.org repo](https://github.com/cnpm/cnpmjs.org)
 #### 1. run the simple one
 
 ```
-docker run -d --name mycnpmjs.org -p 7001:7001 -p 7002:7002 zzswang/cnpmjs.org
+docker run -d --name mycnpmjs.org -p 7001:7001 -p 7002:7002 zzswang/docker-cnpmjs.org
 ```
 
 **note**: It will start the pre-configured cnpmjs.org server. You could use `open http://localhost:7002` to visit the homepage.
@@ -51,7 +51,7 @@ There are more configs, please read the [config file in offical repo](https://gi
 Prepare a folder, like /data, and put your config.json into it. Then start the docker like:
 
 ```
-docker run -d --name mycnpmjs.org -p 7001:7001 -p 7002:7002 -v /data:/data/.npmjs.org zzswang/cnpmjs.org
+docker run -d --name mycnpmjs.org -p 7001:7001 -p 7002:7002 -v /data:/data/.npmjs.org zzswang/docker-cnpmjs.org
 ```
 
 
